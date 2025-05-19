@@ -81,7 +81,7 @@ export interface AppSettings {
 }
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://cms-backend-hx13.onrender.com/api";
+   "https://cms-backend-hx13.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
